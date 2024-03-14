@@ -1,0 +1,299 @@
+ul {
+    list-style-type:none;
+    margin: 0px;
+    padding: 20px;
+    flex-basis: 100wv;
+    background-color:#FFDDA1;
+    border: 2px solid orange
+}
+
+li a {
+    color: orange;
+    font-size: large;
+    padding: 8px 16px;
+    text-decoration: none;
+    display:inline;
+}
+
+li {
+    text-align: center;
+    display: inline;
+    height: 30px;
+    
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li a.active {
+    background-color: #cfd1dd;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: rgba(255, 166, 0, 0.315);
+    color: rgba(255, 166, 0, 0.693);
+    border-radius: 10px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0px;
+    width:950px;
+    height:80px;
+    clear:both;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'BenchNine', sans-serif;
+    color: #000000;
+    font-size: 110%;
+}
+
+.myflexbox{
+    display:flex;
+    flex-direction: row;
+    }
+
+.myflexbox div{
+        color: #FFDDA1 ;
+        background-color: #FFDDA1 ;
+        padding: 0px;
+        margin: 0px;
+        border-bottom: orange;
+    }
+
+.serc{
+    flex-basis: 100vw;
+    height: 5px;
+}
+
+.myflexbox1{
+    display:flex;
+    flex-direction: row;
+    }
+
+.myflexbox1 div{
+        color: #FFDDA1 ;
+        background-color: #FFDDA1  ;
+        padding: 0px;
+        margin: 0px;
+        border-bottom: #FFDDA1 ;
+    }
+
+.serc1{
+    flex-basis: 100vw;
+    height: 60px;
+}
+
+.myflexbox2{
+    display:flex;
+    flex-direction: row;
+    }
+
+.myflexbox2 div{
+        color:orange;
+        font-size:xx-large;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: #FFDDA1  ;
+        padding: 0px;
+        margin: 0px;
+        border-bottom: #FFDDA1 ;
+    }
+
+.serc2{
+    flex-basis: 100vw;
+    height: 40px;
+}
+
+:link{
+    text-decoration: none;
+    color: orange;
+    font-size: larger;
+}
+
+a:visited {
+    color: orange;
+    background-color: transparent;
+    text-decoration:dotted;
+    font-size: larger;
+  }
+  
+  a:hover {
+    color: orange;
+    text-decoration: none;
+    font-size: larger;
+  }
+
+  a:active {
+    color: rgb(255, 98, 0);
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: larger;
+  }
+
+.myflexbox3{
+    display:flex;
+    flex-direction: row;
+    }
+
+.myflexbox3 div{
+        color: #FFDDA1 ;
+        background-color:orange;
+        padding: 0px;
+        margin: 0px;
+        border-bottom: orange;
+    }
+
+.serc3{
+    flex-basis: 100vw;
+    height: 10px;
+}
+
+.myflexbox4{
+    display:flex;
+    flex-direction: row;
+    }
+
+.myflexbox4 div{
+        color: #FFDDA1 ;
+        background-color: #FFDDA1 ;
+        padding: 0px;
+        margin: 0px;
+        border-bottom: #FFDDA1 ;
+    }
+
+.serc4{
+    flex-basis: 100vw;
+    height: 100px;
+}
+
+.pic{
+    padding-right: 1100px;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    color: orange;
+}
+
+p{
+    text-align: center;
+}
+
+h2{
+        color: orange;
+        background-color: #FFDDA1 ;
+        border-radius: 100px;
+        margin-top: 20px;
+        margin-left: 400px;
+        margin-right: 400px
+}
+
+
+
+.ett{
+    flex-basis: 100vw;
+    background-color: #ffffff ;
+    color: rgb(255, 255, 255);
+    border: solid;
+    border-radius: 1px;
+    border-color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 40px;
+}
+
+
+.tre{
+    flex-basis: 100vw;
+    background-color: #ffffff ;
+}
+
+.tre2{
+    text-align: left;
+    background-color: rgba(255, 166, 0, 0.209);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    border: solid; color: orange;
+}
+
+.fyra{
+    flex-basis: 100vw;
+    background-color: #ffffff ;
+}
+
+.fyra2{
+    text-align: left;
+    background-color: rgba(255, 166, 0, 0.209);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    border: solid; color: orange;
+
+}
+
+.fem{
+    flex-basis: 100vw;
+    background-color: #ffffff ;
+}
+
+.fem2{
+    text-align: left;
+    background-color: rgba(255, 166, 0, 0.209);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    border: solid; color: orange;
+
+}
+
+.sex{
+    flex-basis: 100vw;
+    background-color: #ffffff ;
+}
+
+.sex2{
+    text-align: left;
+    background-color: rgba(255, 166, 0, 0.209);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    border: solid; color: orange;
+
+}
+
+.sju{
+    flex-basis: 100vw;
+    background-color: #ffffff ;
+}
+
+.sju2{
+    text-align: left;
+    background-color: rgba(255, 166, 0, 0.209);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    border: solid; color: orange;
+
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

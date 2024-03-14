@@ -1,0 +1,206 @@
+
+#footer {
+    position: absolute;
+    bottom: 0px;
+    width:950px;
+    height:80px;
+    clear:both;
+    text-align: center;
+    padding-top: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 110%;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.myflexbox{
+    display:flex;
+    flex-direction: row;
+    }
+
+.myflexbox div{
+        color: #FFDDA1 ;
+        background-color: #FFDDA1 ;
+        padding: 0px;
+        margin: 0px;
+        border-bottom: orange;
+    }
+
+.serc{
+    flex-basis: 100vw;
+    height: 5px;
+}
+
+.myflexbox1{
+    display:flex;
+    flex-direction: row;
+    }
+
+.myflexbox1 div{
+        color: #FFDDA1 ;
+        background-color: #FFDDA1  ;
+        padding: 0px;
+        margin: 0px;
+        border-bottom: #FFDDA1 ;
+    }
+
+.serc1{
+    flex-basis: 100vw;
+    height: 60px;
+}
+
+.myflexbox2{
+    display:flex;
+    flex-direction: row;
+    }
+
+.myflexbox2 div{
+        color:orange;
+        font-size:xx-large;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: #FFDDA1  ;
+        padding: 0px;
+        margin: 0px;
+        border-bottom: #FFDDA1 ;
+        text-decoration: none;
+    }
+
+.serc2{
+    flex-basis: 100vw;
+    height: 40px;
+    text-decoration: none;
+}
+
+:link{
+    text-decoration: none;
+    color: orange;
+    font-size: larger;
+}
+
+a:visited {
+    color: orange;
+    background-color: transparent;
+    text-decoration:dotted;
+    font-size: larger;
+  }
+  
+  a:hover {
+    color: orange;
+    text-decoration: none;
+    font-size: larger;
+  }
+
+  a:active {
+    color: rgb(255, 98, 0);
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: larger;
+  }
+
+
+.myflexbox3{
+    display:flex;
+    flex-direction: row;
+    }
+
+.myflexbox3 div{
+        color: #FFDDA1 ;
+        background-color:orange;
+        padding: 0px;
+        margin: 0px;
+        border-bottom: orange;
+    }
+
+.serc3{
+    flex-basis: 100vw;
+    height: 10px;
+}
+
+.myflexbox4{
+    display:flex;
+    flex-direction: row;
+    }
+
+.myflexbox4 div{
+        color: #FFDDA1 ;
+        background-color: #FFDDA1 ;
+        padding: 0px;
+        margin: 0px;
+        border-bottom: #FFDDA1 ;
+    }
+
+.serc4{
+    flex-basis: 100vw;
+    height: 100px;
+}
+
+.pic{
+    padding-right: 1100px;
+}
+
+.formu{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    padding: 50px;
+    border-style: solid;
+    border-width: 0,1px;
+    border-color: black;
+    border-radius: 0px;
+}
+
+.bilder{
+    background-color: #FFDDA1 ;
+    height: 320px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.bilder2{
+    padding-left: 75px;
+}
+
+.drag{
+    background-color: #FFDDA1 ;
+    height: 80px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.seek{
+    background-color: #FFDDA1 ;
+    height: 140px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.gillar{
+    background-color: #FFDDA1 ;
+    height: 170px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.gul{
+    background-color: #FFDDA1 ;
+    padding: 10px;
+}
+
+.lo{
+    color: orangered;
+    background-color: #FFDDA1 ;
+    border-radius: 100px;
+    padding:10px;
+    height: 30px;
+    margin: 20px;
+    left: 250px;
+    top: 15px;
+    font-size: x-large;
+}
+
+h1{
+    color: orange;
+    font-size: xx-large;
+}
+

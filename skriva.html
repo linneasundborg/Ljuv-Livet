@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ljuva Livet är en otrolig dejtingsida">
+    <meta name="keywords" content="Dejting, Love, Kärlek, Hitta kärleken, Dejt, Älska">
+    <meta name="author" content="Ljuva Livet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chattapplikation</title>
+    <link rel="stylesheet" href="CSS/skriva.css">
+    <style> 
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        #chat-box {
+            flex: 1;
+            overflow-y: scroll;
+            padding: 10px;
+        }
+
+        #message-input {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 10px;
+        }
+
+        #send-button {
+            padding: 10px;
+            font-size: 16px;
+            background-color:coral;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <p><a href="chat.html">⏎ Tillbaka</a></p>
+
+
+    <div id="chat-box"></div>
+    <input type="text" id="message-input" placeholder="Skriv ditt meddelande...">
+    <button id="send-button" onclick="sendMessage()">Skicka</button>
+
+    <script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script>
+    <script>
+        const socket = io();
+
+        socket.on('message', (data) => {
+            displayMessage(data.sender + ': ' + data.content);
+        });
+
+        function sendMessage() {
+            const messageInput = document.getElementById('message-input');
+            const message = messageInput.value;
+
+            if (message.trim() !== '') {
+                socket.emit('message', { sender: 'Du', content: message });
+                messageInput.value = '';
+                messageInput.focus();
+                scrollToBottom();
+            }
+        }
+
+        function displayMessage(message) {
+            const chatBox = document.getElementById('chat-box');
+            const messageElement = document.createElement('p');
+            messageElement.textContent = message;
+            chatBox.appendChild(messageElement);
+            scrollToBottom();
+        }
+
+        function scrollToBottom() {
+            const chatBox = document.getElementById('chat-box');
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+    </script>
+<br>
+
+<script src="Js/skriva.js"></script>
+
+</body>
+</html>

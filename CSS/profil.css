@@ -1,0 +1,201 @@
+ul {
+    list-style-type:none;
+    margin: 0px;
+    padding: 20px;
+    flex-basis: 100wv;
+    background-color:#FFDDA1;
+    border: 2px solid orange
+}
+
+li a {
+    color: orange;
+    font-size: large;
+    padding: 8px 16px;
+    text-decoration: none;
+    display:inline;
+}
+
+li {
+    text-align: center;
+    display: inline;
+    height: 30px;
+    
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li a.active {
+    background-color: #cfd1dd;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: rgba(255, 166, 0, 0.315);
+    color: rgba(255, 166, 0, 0.693);
+    border-radius: 10px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0px;
+    width:950px;
+    height:80px;
+    clear:both;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'BenchNine', sans-serif;
+    color: #000000;
+    font-size: 110%;
+}
+
+.myflexbox{
+    display:flex;
+    flex-direction: row;
+    }
+
+.myflexbox div{
+        color: #FFDDA1 ;
+        background-color: #FFDDA1 ;
+        padding: 0px;
+        margin: 0px;
+        border-bottom: orange;
+    }
+
+.serc{
+    flex-basis: 100vw;
+    height: 5px;
+}
+
+.myflexbox1{
+    display:flex;
+    flex-direction: row;
+    }
+
+.myflexbox1 div{
+        color: #FFDDA1 ;
+        background-color: #FFDDA1  ;
+        padding: 0px;
+        margin: 0px;
+        border-bottom: #FFDDA1 ;
+    }
+
+.serc1{
+    flex-basis: 100vw;
+    height: 60px;
+}
+
+.myflexbox2{
+    display:flex;
+    flex-direction: row;
+    }
+
+.myflexbox2 div{
+        color:orange;
+        font-size:xx-large;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: #FFDDA1  ;
+        padding: 0px;
+        margin: 0px;
+        border-bottom: #FFDDA1 ;
+    }
+
+.serc2{
+    flex-basis: 100vw;
+    height: 40px;
+}
+
+:link{
+    text-decoration: none;
+    color: orange;
+    font-size: larger;
+}
+
+a:visited {
+    color: orange;
+    background-color: transparent;
+    text-decoration:dotted;
+    font-size: larger;
+  }
+  
+  a:hover {
+    color: orange;
+    text-decoration: none;
+    font-size: larger;
+  }
+
+  a:active {
+    color: rgb(255, 98, 0);
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: larger;
+  }
+
+.myflexbox3{
+    display:flex;
+    flex-direction: row;
+    }
+
+.myflexbox3 div{
+        color: #FFDDA1 ;
+        background-color:orange;
+        padding: 0px;
+        margin: 0px;
+        border-bottom: orange;
+    }
+
+.serc3{
+    flex-basis: 100vw;
+    height: 10px;
+}
+
+.myflexbox4{
+    display:flex;
+    flex-direction: row;
+    }
+
+.myflexbox4 div{
+        color: #FFDDA1 ;
+        background-color: #FFDDA1 ;
+        padding: 0px;
+        margin: 0px;
+        border-bottom: #FFDDA1 ;
+    }
+
+.serc4{
+    flex-basis: 100vw;
+    height: 100px;
+}
+
+.pic{
+    padding-right: 1100px;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.side2{
+    background-color:#FFDDA1;
+    border: solid;
+    border-width: 120px;
+    border-color: white;
+}
+
+
+.hejhej{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+
+.hej2{
+    font-size: 100px;
+    padding-left: 20px;
+}
+
+.hej1{
+    font-size: 100px;
+    padding-right: 750px;
+}
